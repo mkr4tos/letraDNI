@@ -1,6 +1,7 @@
 @echo off
-color 04
+color 02
 cls
+:inicio
 echo.
 set /p numero= "Introduce el numero de DNI (si empieza por 0 no ponerlo) --> "
 cls 
@@ -38,3 +39,4 @@ echo La letra para este numero es %letra%
 echo.
 echo El DNI completo es %numero%-%letra%
 echo.
+goto inicio
